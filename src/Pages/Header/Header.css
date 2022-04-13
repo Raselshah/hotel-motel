@@ -1,0 +1,17 @@
+.logo h2{
+    color: #fff;
+    cursor: pointer;
+}
+.navbar a {
+    text-decoration: none;
+    padding:  0 30px;
+    font-family: 18px;
+    color: #fff;
+    cursor: pointer;
+}
+.header-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightskyblue;
+}

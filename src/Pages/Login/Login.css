@@ -1,0 +1,5 @@
+.form-container p{
+    cursor: pointer;
+    text-decoration: underline;
+    color: lightcoral;
+}
