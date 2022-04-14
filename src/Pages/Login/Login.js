@@ -1,18 +1,22 @@
 import React, { useRef } from "react";
-import { useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
+import useFirebaseHook from "../../hooks/useFirebaseHook/useFirebaseHook";
 import "./Login.css";
 
 const Login = () => {
   const emailRef = useRef("");
   const passwordRef = useRef("");
   const navigate = useNavigate();
+  const { logIn } = useFirebaseHook();
+
+
 
   const handleLogIn = (event) => {
     event.preventDefault();
     const email = emailRef.current.value;
     const password = passwordRef.current.value;
 
-    console.log(email, password);
+    logIn(email, password);
   };
   return (
     <div>

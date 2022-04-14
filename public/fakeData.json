@@ -22,5 +22,53 @@
         "seller": "Hotel-Motel.Int",
         "price": 800,
         "img": "https://images.unsplash.com/photo-1512918580421-b2feee3b85a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+      },
+    {
+        "id": "4",
+        "category": "Double rome",
+        "name": "5 Star Double Rome",
+        "seller": "Hotel-Motel.Int",
+        "price": 800,
+        "img": "https://images.unsplash.com/photo-1512918580421-b2feee3b85a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+      },
+    {
+        "id": "5",
+        "category": "Double rome",
+        "name": "5 Star Double Rome",
+        "seller": "Hotel-Motel.Int",
+        "price": 800,
+        "img": "https://images.unsplash.com/photo-1512918580421-b2feee3b85a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+      },
+    {
+        "id": "6",
+        "category": "Double rome",
+        "name": "5 Star Double Rome",
+        "seller": "Hotel-Motel.Int",
+        "price": 800,
+        "img": "https://images.unsplash.com/photo-1512918580421-b2feee3b85a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+      },
+    {
+        "id": "7",
+        "category": "Double rome",
+        "name": "5 Star Double Rome",
+        "seller": "Hotel-Motel.Int",
+        "price": 800,
+        "img": "https://images.unsplash.com/photo-1512918580421-b2feee3b85a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+      },
+    {
+        "id": "8",
+        "category": "Double rome",
+        "name": "5 Star Double Rome",
+        "seller": "Hotel-Motel.Int",
+        "price": 800,
+        "img": "https://images.unsplash.com/photo-1512918580421-b2feee3b85a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+      },
+    {
+        "id": "9",
+        "category": "Double rome",
+        "name": "5 Star Double Rome",
+        "seller": "Hotel-Motel.Int",
+        "price": 800,
+        "img": "https://images.unsplash.com/photo-1512918580421-b2feee3b85a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
       }
 ]

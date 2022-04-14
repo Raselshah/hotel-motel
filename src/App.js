@@ -6,6 +6,8 @@ import Login from "./Pages/Login/Login";
 import Service from "./Pages/Service/Service";
 import Services from "./Pages/Services/Services";
 import SignUp from "./Pages/SignUp/SignUp";
+import RequireAuth from "./RequireAuth/RequireAuth";
+import About from "./Pages/About/About";
 
 function App() {
   return (
@@ -15,6 +17,14 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/service/:serviceId" element={<Service />} />
+        <Route
+          path="/about"
+          element={
+            <RequireAuth>
+              <About></About>
+            </RequireAuth>
+          }
+        />
         <Route path="/services" element={<Services />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/login" element={<Login />} />

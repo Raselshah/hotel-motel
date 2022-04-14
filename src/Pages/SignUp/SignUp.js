@@ -1,12 +1,14 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import useFirebase from "../../hooks/SignUp-LogIn/SignUpLogIn";
 import "./SignUp.css";
+import useFirebaseHook from "../../hooks/useFirebaseHook/useFirebaseHook";
 const SignUp = () => {
   const [email, setEmail] = useState([]);
   const [name, setName] = useState([]);
   const [password, setPassword] = useState([]);
   const navigate = useNavigate();
+
+  const { signInEmail } = useFirebaseHook();
 
   const handleEmail = (event) => {
     setEmail(event.target.value);
@@ -20,11 +22,9 @@ const SignUp = () => {
     setPassword(event.target.value);
   };
 
-  const { handleEmailPassword } = useFirebase();
   const signUpButton = (event) => {
     event.preventDefault();
-
-    handleEmailPassword(email, name, password);
+    signInEmail(email, password);
   };
 
   return (
